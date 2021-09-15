@@ -1,12 +1,20 @@
 h1 {
   color: rgb(244, 244, 244);
   background-color: black;
-  margin-left: 30%;
-  margin-right: 30%;
+  text-align: center;
 }
 a {
   font-size: x-large;
   color: aliceblue;
-  background-color: darkgreen;
+  background-color:black;
+  padding: 15px;
+  border: solid 4px darkgreen;
+  border-radius: 50%;
+}
+a:hover {background-color:white;
+  color: black;
+border: solid 4px blue;
 }
 img{width: 100%;}
+#link { text-align: center;}
+html { background-color: black;}
