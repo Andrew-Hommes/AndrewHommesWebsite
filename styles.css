@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(244, 244, 244);
+  background-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+a {
+  font-size: x-large;
+  color: aliceblue;
+  background-color: darkgreen;
+}
+img{width: 100%;}
