@@ -1,5 +1,5 @@
 h1 {
-  color: antiquewhite;
+  color: rgb(0, 0, 0);
   background: linear-gradient(45deg, darkgrey, black, darkgrey,black, darkgrey, black, hsl(0, 91%, 21%),darkgreen );
   text-align: center;
   position:-webkit-sticky;
@@ -12,10 +12,10 @@ a {
   background: linear-gradient(44deg, grey,black, darkgrey);
   padding: 15px;
   border: solid 4px darkgreen;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 a:hover {background-color:white;
-  color: rgb(118, 5, 5);
+  color: rgb(140, 140, 140);
 border: solid 4px rgb(18, 62, 9);
 }
 img{width: 100%;}
@@ -32,25 +32,25 @@ body{color: antiquewhite;}
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 8px;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: -webkit-sticky ;
-  position: absolute ;
-  top: 20px;
+  position: absolute;
+  top: 40px;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: absolute;
-  background-color: #350505;
+  position: sticky;
+  background-color: transparent;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px transparent( 0,0,0,0.2);
   z-index: 1;
-  border-radius: 30px;
 }
 
 /* Links inside the dropdown */
@@ -63,10 +63,14 @@ body{color: antiquewhite;}
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: transparent;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+h1{background-image: url(./images/banner-1571858_1920.jpg) ; text-shadow: brown; right: 5px;
+z-index: index -1; ;}
+h1:hover {text-shadow: darkblue;right: 4px;}
