@@ -29,18 +29,22 @@ body{color: antiquewhite;}
 .dropbtn {
   background-color: #153700;
   color: white;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: none;
   border-radius: 8px;
+  
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: -webkit-sticky ;
-  position: absolute;
-  top: 40px;
-  display: inline-block;
+  /* position: -webkit-sticky ;
+  position: sticky; */
+  position: absolute ;
+  top: 20px;
+  left: 40px;
+
+  
 }
 
 /* Dropdown Content (Hidden by Default) */
